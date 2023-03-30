@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1060207418990",
+    "project_id": "safeguard-20508",
+    "storage_bucket": "safeguard-20508.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060207418990:android:84d231ec90c3348c82107f",
+        "android_client_info": {
+          "package_name": "com.example.safeguard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060207418990-mqspnt18j13k71jojfbah25tn0iud66q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.safeguard",
+            "certificate_hash": "44cbb83d5be48e332fb7dea918a1ac74179b1df9"
+          }
+        },
+        {
+          "client_id": "1060207418990-jrq5me3u7eoprqgat6nd2g7tauhu7b2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiQgthni-Z6xvtoRigBLs7OR-g8K7GCNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060207418990-jrq5me3u7eoprqgat6nd2g7tauhu7b2h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1060207418990-diondccfo7b6schttjd79aalshesvokl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.safeguard.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
