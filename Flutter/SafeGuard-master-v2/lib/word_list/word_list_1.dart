@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:path/path.dart';
 import 'package:safeguard/app.dart';
+import 'package:safeguard/word_list/word_list_2.dart';
+import 'package:safeguard/word_list/word_model.dart';
 import 'package:safeguard/word_list/words_main.dart';
 
 import '../ai_main.dart';
 import '../file_list/file_main.dart';
 
-class TodoListPage extends StatelessWidget {
+class WordListHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -73,7 +76,7 @@ class TodoListPage extends StatelessWidget {
                   color: Color(0xff233E59),
                 ),
                 ListTile(
-                  title: Text('AI 안전 시각화'),
+                  title: Text('AI Safety Protection'),
                   leading: FlutterLogo(),
                   onTap: () => {
                     Navigator.push(
@@ -84,7 +87,7 @@ class TodoListPage extends StatelessWidget {
                   color: Color(0xff233E59),
                 ),
                 ListTile(
-                  title: Text('안전 관리 용어'),
+                  title: Text('Safe Word'),
                   leading: Image.asset("assets/images/word_y.png"),
                   onTap: () => {
                     Navigator.push(
@@ -95,7 +98,7 @@ class TodoListPage extends StatelessWidget {
                   color: Color(0xff233E59),
                 ),
                 ListTile(
-                  title: Text('필요 서류함'),
+                  title: Text('Document Box'),
                   leading: Icon(Icons.thumb_up),
                   onTap: () => {
                     Navigator.push(
@@ -106,17 +109,17 @@ class TodoListPage extends StatelessWidget {
                   color: Color(0xff233E59),
                 ),
                 ListTile(
-                  title: Text('긴급 신고'),
+                  title: Text('Emergency'),
                   leading: Icon(Icons.thumb_up),
                 ),
               ]),
             ),
-            body: Word1Home(),
-          ),
-        ));
+           body:Word1Home(),
+        )));
   }
 }
 
+///////////////////////////////////////////////////////////////////////////////
 class Word1Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -133,7 +136,7 @@ class Word1Home extends StatelessWidget {
                 Container(
                   margin: EdgeInsets.fromLTRB(20, 0, 0, 0),
                   child: const Text(
-                    '안전 관리 용어',
+                    'Workplace Safety Rules',
                     style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.w700,
@@ -142,73 +145,179 @@ class Word1Home extends StatelessWidget {
                   ),
                 ),
                 Container(
-                  margin: EdgeInsets.fromLTRB(150, 10, 0, 0),
+                  margin: EdgeInsets.fromLTRB(40, 10, 0, 0),
                   child: Image.asset(
                     'assets/images/file_q.png',
                   ),
                 ),
-              ]))
+              ])),
+          Container(
+            margin: EdgeInsets.fromLTRB(7, 20, 0, 0),
+            child: SizedBox(
+              height: 60,
+              width: 360,
+              child: TextButton(
+                style: TextButton.styleFrom(
+                    foregroundColor: Colors.white,
+                    backgroundColor: Color(0xff233E59),
+                    padding: const EdgeInsets.all(10.0),
+                    textStyle: const TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.w700,
+                    ),
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10))),
+                onPressed: () {
+                  Navigator.push(
+                      context, MaterialPageRoute(builder: (_) => (WordListHome1())));
+                },
+                child: const Text('Clean and tidy'),
+              ),
+            ),
+          ),
+          Container(
+            margin: EdgeInsets.fromLTRB(10, 10, 0, 0),
+            child: SizedBox(
+              height: 60,
+              width: 360,
+              child: TextButton(
+                style: TextButton.styleFrom(
+                    foregroundColor: Colors.white,
+                    backgroundColor: Color(0xff233E59),
+                    padding: const EdgeInsets.all(10.0),
+                    textStyle: const TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.w700,
+                    ),
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10))),
+                onPressed: () {
+                  Navigator.push(
+                      context, MaterialPageRoute(builder: (_) => (Word1Explain())));
+                },
+                child: const Text('dust caution'),
+              ),
+            ),
+          ),
+          Container(
+            margin: EdgeInsets.fromLTRB(10, 15, 0, 0),
+            child: SizedBox(
+              height: 60,
+              width: 360,
+              child: TextButton(
+                style: TextButton.styleFrom(
+                    foregroundColor: Colors.white,
+                    backgroundColor: Color(0xff233E59),
+                    padding: const EdgeInsets.all(10.0),
+                    textStyle: const TextStyle(
+                      fontSize: 17,
+                      fontWeight: FontWeight.w700,
+                    ),
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10))),
+                onPressed: () {
+                  Navigator.push(
+                      context, MaterialPageRoute(builder: (_) => (MainHome())));
+                },
+                child: const Text('Prohibition of leaving toxic substances'),
+              ),
+            ),
+          ),
+          Container(
+              margin: EdgeInsets.fromLTRB(10, 15, 0, 0),
+              child: SizedBox(
+                height: 60,
+              width: 360,
+                child: TextButton(
+                  style: TextButton.styleFrom(
+                      foregroundColor: Colors.white,
+                      backgroundColor: Color(0xff233E59),
+                      padding: const EdgeInsets.all(10.0),
+                      textStyle: const TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.w700,
+                      ),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10))),
+                  onPressed: () {
+                    Navigator.push(
+                        context, MaterialPageRoute(builder: (_) => (MainHome())));
+                  },
+                  child: const Text('Compliance with safety rules'),
+                ),
+              )),
+          Container(
+              margin: EdgeInsets.fromLTRB(10, 15, 0, 0),
+              child: SizedBox(
+                height: 60,
+              width: 360,
+                child: TextButton(
+                  style: TextButton.styleFrom(
+                      foregroundColor: Colors.white,
+                      backgroundColor: Color(0xff233E59),
+                      padding: const EdgeInsets.all(10.0),
+                      textStyle: const TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.w700,
+                      ),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10))),
+                  onPressed: () {
+                    Navigator.push(
+                        context, MaterialPageRoute(builder: (_) => (MainHome())));
+                  },
+                  child: const Text('no smoking'),
+                ),
+              )),
+
+              Container(
+              margin: EdgeInsets.fromLTRB(10, 15, 0, 0),
+              child: SizedBox(
+               height: 60,
+              width: 360,
+                child: TextButton(
+                  style: TextButton.styleFrom(
+                      foregroundColor: Colors.white,
+                      backgroundColor: Color(0xff233E59),
+                      padding: const EdgeInsets.all(10.0),
+                      textStyle: const TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.w700,
+                      ),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10))),
+                  onPressed: () {
+                    Navigator.push(
+                        context, MaterialPageRoute(builder: (_) => (MainHome())));
+                  },
+                  child: const Text('bundled up'),
+                ),
+              )),
+              Container(
+              margin: EdgeInsets.fromLTRB(10, 15, 0, 0),
+              child: SizedBox(
+               height: 60,
+              width: 360,
+                child: TextButton(
+                  style: TextButton.styleFrom(
+                      foregroundColor: Colors.white,
+                      backgroundColor: Color(0xff233E59),
+                      padding: const EdgeInsets.all(10.0),
+                      textStyle: const TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.w700,
+                      ),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10))),
+                  onPressed: () {
+                    Navigator.push(
+                        context, MaterialPageRoute(builder: (_) => (MainHome())));
+                  },
+                  child: const Text('bundled up'),
+                ),
+              ))
         ]));
   }
-
-  /*@override
-  Widget build(BuildContext context) {
-    return _createTodoList();
-  }
-
-   Widget _createTodoList() {
-    return ListView.separated(
-      itemCount: 10,
-      itemBuilder: (BuildContext context, int index) {
-        return _createTodoCard();
-      },
-      separatorBuilder: (BuildContext context, int index) {
-        return Divider(
-          thickness: 8.0,
-          height: 8.0,
-          color: Colors.transparent,
-        );
-      },
-    );
-  }
-
-  Widget _createTodoCard() {
-    return Card(
-      elevation: 4.0,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(8.0))),
-      child: Container(
-          padding: EdgeInsets.all(16.0), 
-          child: _createTodoItemRow()
-      ),
-    );
-  }
-
-  Widget _createTodoItemRow() {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: [
-        _createTodoItemContentWidget(),
-        Icon(Icons.keyboard_arrow_right, color: Colors.blue)
-      ],
-    );
-  }
-
-  Widget _createTodoItemContentWidget() {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Text("Todo Item Title",
-            style: TextStyle(fontSize: 24.0, color: Colors.blue)),
-        Divider(
-          thickness: 8.0,
-          height: 8.0,
-          color: Colors.transparent,
-        ),
-        Text("2021.01.18",
-            style: TextStyle(fontSize: 18.0, color: Colors.blueGrey))
-      ],
-    );
-  }*/
 }
+
+

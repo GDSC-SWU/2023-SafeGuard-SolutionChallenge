@@ -3,6 +3,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'dart:async';
 import 'package:get/get.dart';
 import 'package:safeguard/app.dart';
+import 'package:safeguard/emergency.dart';
 
 Future<void> main() async {
   // 비동기 메소드 사용시 추가(Firebase 초기화 함수가 비동기 방식임)

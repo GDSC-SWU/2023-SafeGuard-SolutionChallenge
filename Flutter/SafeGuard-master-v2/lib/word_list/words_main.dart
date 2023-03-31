@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:safeguard/ai_main.dart';
 import 'package:safeguard/file_list/file_main.dart';
 import 'package:safeguard/app.dart';
+import 'package:safeguard/main.dart';
 import 'package:safeguard/word_list/word_list_1.dart';
 
 class WordsMain extends StatelessWidget {
@@ -74,7 +75,7 @@ class WordsMain extends StatelessWidget {
                   color: Color(0xff233E59),
                 ),
                 ListTile(
-                  title: Text('AI 안전 시각화'),
+                  title: Text('AI Safety Protection'),
                   leading: FlutterLogo(),
                   onTap: () => {
                     Navigator.push(
@@ -85,7 +86,7 @@ class WordsMain extends StatelessWidget {
                   color: Color(0xff233E59),
                 ),
                 ListTile(
-                  title: Text('안전 관리 용어'),
+                  title: Text('Safe Word'),
                   leading: Image.asset("assets/images/word_y.png"),
                   onTap: () => {
                     Navigator.push(
@@ -96,7 +97,7 @@ class WordsMain extends StatelessWidget {
                   color: Color(0xff233E59),
                 ),
                 ListTile(
-                  title: Text('필요 서류함'),
+                  title: Text('Document Box'),
                   leading: Icon(Icons.thumb_up),
                   onTap: () => {
                     Navigator.push(
@@ -107,7 +108,7 @@ class WordsMain extends StatelessWidget {
                   color: Color(0xff233E59),
                 ),
                 ListTile(
-                  title: Text('긴급 신고'),
+                  title: Text('Emergency'),
                   leading: Icon(Icons.thumb_up),
                 ),
               ]),
@@ -134,7 +135,7 @@ class WordsHome extends StatelessWidget {
                 Container(
                   margin: EdgeInsets.fromLTRB(20, 0, 0, 0),
                   child: const Text(
-                    '안전 관리 용어',
+                    'Safe Word',
                     style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.w700,
@@ -167,9 +168,9 @@ class WordsHome extends StatelessWidget {
                         borderRadius: BorderRadius.circular(10))),
                 onPressed: () {
                   Navigator.push(
-                      context, MaterialPageRoute(builder: (_) => (TodoListPage())));
+                      context, MaterialPageRoute(builder: (_) => (WordListHome())));
                 },
-                child: const Text('작업장 안전수칙'),
+                child: const Text('Workplace Safety Rules'),
               ),
             ),
           ),
@@ -193,7 +194,7 @@ class WordsHome extends StatelessWidget {
                   Navigator.push(
                       context, MaterialPageRoute(builder: (_) => (MainHome())));
                 },
-                child: const Text('작업관련성 질환'),
+                child: const Text('Work-Related Disease'),
               ),
             ),
           ),
@@ -217,7 +218,7 @@ class WordsHome extends StatelessWidget {
                   Navigator.push(
                       context, MaterialPageRoute(builder: (_) => (MainHome())));
                 },
-                child: const Text('건설현장에서의 안전'),
+                child: const Text('Safety at construction sites'),
               ),
             ),
           ),
@@ -264,7 +265,7 @@ class WordsHome extends StatelessWidget {
                     Navigator.push(
                         context, MaterialPageRoute(builder: (_) => (MainHome())));
                   },
-                  child: const Text('AI 추천 TEST'),
+                  child: const Text('Random Test'),
                 ),
               ))
         ]));

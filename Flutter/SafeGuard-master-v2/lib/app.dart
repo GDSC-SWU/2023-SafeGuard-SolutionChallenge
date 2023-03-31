@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:safeguard/ai_main.dart';
+import 'package:safeguard/emergency.dart';
 import 'package:safeguard/file_list/file_main.dart';
 import 'package:safeguard/loading.dart';
 import 'package:safeguard/mypage.dart';
@@ -228,7 +229,7 @@ class MainButton extends StatelessWidget {
                 ),
                 onTap: () => {
                   Navigator.push(
-                      context, MaterialPageRoute(builder: (_) => Loading()))
+                      context, MaterialPageRoute(builder: (_) => Emergency()))
                 },
               ),
             ]),
