@@ -27,7 +27,7 @@ Migrant workers working at construction sites can secure their own safety at the
 <img width="234" alt="image" src="https://user-images.githubusercontent.com/101170415/231507874-6e0dc8a4-9182-4112-9639-dbc8666f464c.png">
 
 # Tech Architecture
-
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/109645891/231533648-bfb6998d-b21f-47bc-ad6d-053b23e8f36a.png">
 # How to use
 
 # 👍 Contributors
