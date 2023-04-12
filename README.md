@@ -30,7 +30,7 @@ Migrant workers working at construction sites can secure their own safety at the
 
 # How to use
 
-# Contributors
+# 👍 Contributors
 |Name|[Hye-jeong Park]()|[Daeun Ko]()|[Soomin Kim]()|[YoonSeon Oh](https://github.com/sunnny17)|
 |:---:|:---:|:---:|:---:|:---:|
 |Role|PM / Flutter / Backend / Design|Flutter|Flutter / Backend / Design|AI/ML / Design|
