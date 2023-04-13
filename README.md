@@ -34,7 +34,7 @@ Migrant workers working at construction sites can secure their own safety at the
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/63340879/231786676-d65903e0-3efb-47df-8dc4-fec6f5ddf7d6.gif">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/63340879/231786761-abde6a0b-e835-4802-a071-550aa077fb80.gif">
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/63340879/231786866-13b3ba14-7dcb-4b01-8d52-ecf90f76eeca.gif">
-<img width="700" alt="image" src="https://user-images.githubusercontent.com/63340879/231787041-0634c56c-9668-469b-b0f4-41815ecff083.gif">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/63340879/231794974-42aa636e-8b39-4692-903b-f35fa0ccd3eb.gif">
 
 # 🎥 Demo Video
 [<img width="567" alt="preview" src="https://user-images.githubusercontent.com/63340879/231790860-1fe8ac14-8e22-4344-afa4-e8518b66990a.PNG">](https://www.youtube.com/watch?v=c-FyNjnYctE)
