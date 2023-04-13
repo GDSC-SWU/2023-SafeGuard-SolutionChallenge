@@ -40,7 +40,7 @@ Migrant workers working at construction sites can secure their own safety at the
 [<img width="567" alt="preview" src="https://user-images.githubusercontent.com/63340879/231790860-1fe8ac14-8e22-4344-afa4-e8518b66990a.PNG">](https://www.youtube.com/watch?v=c-FyNjnYctE)
 
 # 👍 Contributors
-|Name|[Hye-jeong Park]()|[Daeun Ko]()|[Soomin Kim](https://github.com/nimoot)|[YoonSeon Oh](https://github.com/sunnny17)|
+|Name|[Hye-jeong Park](https://github.com/Park-HyeJeong)|[Daeun Ko]()|[Soomin Kim](https://github.com/nimoot)|[YoonSeon Oh](https://github.com/sunnny17)|
 |:---:|:---:|:---:|:---:|:---:|
 |Role|PM / Flutter / Backend / Design|Flutter|Flutter / Backend / Design|AI/ML / Design|
-|Profile Image|<img width="100" src=""/>|<img width="100" src=""/>|<img width="100" src="https://user-images.githubusercontent.com/109645891/231533110-35c27b68-2431-46b9-99d1-66d36d7f9dd1.png"/>|<img width="130" src="https://user-images.githubusercontent.com/86971536/231524340-060eb465-5da1-4369-bdbe-35ac416be410.jpg"/>|
+|Profile Image|<img width="100" src="https://user-images.githubusercontent.com/63340879/231808117-97164d43-32da-44ed-85ca-c807603eef38.jpg"/>|<img width="100" src=""/>|<img width="100" src="https://user-images.githubusercontent.com/109645891/231533110-35c27b68-2431-46b9-99d1-66d36d7f9dd1.png"/>|<img width="130" src="https://user-images.githubusercontent.com/86971536/231524340-060eb465-5da1-4369-bdbe-35ac416be410.jpg"/>|
