@@ -1,7 +1,6 @@
 # 2023-SafeGuard-SolutionChallenge
 
 # 👷‍♂️ Problem
-<img width="648" alt="image" src="https://user-images.githubusercontent.com/101170415/231518658-54a1391e-0e05-484e-b056-9445e64f4115.png">
 
 <img width="423" alt="image" src="https://user-images.githubusercontent.com/101170415/231520438-39924dea-8c02-4f33-859f-672fa2978145.png">
 
