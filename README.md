@@ -28,7 +28,16 @@ Migrant workers working at construction sites can secure their own safety at the
 
 # ⚙ Tech Architecture
 <img width="750" alt="image" src="https://user-images.githubusercontent.com/109645891/231533648-bfb6998d-b21f-47bc-ad6d-053b23e8f36a.png">
-# How to use
+
+# 📱 How to use
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/63340879/231783780-07b30f98-7675-4774-9a09-d3da54a64b63.gif">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/63340879/231786676-d65903e0-3efb-47df-8dc4-fec6f5ddf7d6.gif">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/63340879/231786761-abde6a0b-e835-4802-a071-550aa077fb80.gif">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/63340879/231786866-13b3ba14-7dcb-4b01-8d52-ecf90f76eeca.gif">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/63340879/231787041-0634c56c-9668-469b-b0f4-41815ecff083.gif">
+
+# 🎥 Demo Video
+[<img width="567" alt="preview" src="https://user-images.githubusercontent.com/63340879/231790860-1fe8ac14-8e22-4344-afa4-e8518b66990a.PNG">](https://www.youtube.com/watch?v=c-FyNjnYctE)
 
 # 👍 Contributors
 |Name|[Hye-jeong Park]()|[Daeun Ko]()|[Soomin Kim](https://github.com/nimoot)|[YoonSeon Oh](https://github.com/sunnny17)|
